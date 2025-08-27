@@ -25,8 +25,6 @@ It connects with Open Library API to let students and book lovers search million
 
 🖼️ Screenshots
 Home Page - 
-<img width="1309" height="603" alt="Screenshot 2025-08-27 at 1 30 41 PM" src="https://github.com/user-attachments/assets/b017802d-da32-4562-9dfd-64e40e1f0554" />
-
 ![alt text](public/image.png)
 
 Search Results
