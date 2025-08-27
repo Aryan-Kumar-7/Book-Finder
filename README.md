@@ -1,12 +1,87 @@
-# React + Vite
+📚 BookFinder – for Students
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BookFinder is a responsive book search application built with React + Tailwind CSS.
+It connects with Open Library API to let students and book lovers search millions of books by title, author, subject, ISBN, and publisher.
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔍 Powerful Search – Search by title, author, subject, ISBN, or publisher
 
-## Expanding the ESLint configuration
+⚡ Quick Search – Predefined buttons for popular topics
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧭 Advanced Filters – Filter by year, language, and subject
+
+❤️ Favorites – Mark books you like for easy access
+
+📊 Quick Stats – Get insights on your searches and saved books
+
+🕒 Search History – Quickly revisit past searches
+
+📱 Responsive UI – Works smoothly on mobile, tablet, and desktop
+
+🔄 Pagination – Navigate results page by page
+
+📖 Grid/List Views – Toggle between book card grid or list layout
+
+🖼️ Screenshots
+Home Page - 
+<img width="1309" height="603" alt="Screenshot 2025-08-27 at 1 30 41 PM" src="https://github.com/user-attachments/assets/b017802d-da32-4562-9dfd-64e40e1f0554" />
+
+![alt text](public/image.png)
+
+Search Results
+
+🚀 Tech Stack
+
+Frontend: React 19
+, Tailwind CSS
+
+UI Components: Lucide Icons
+
+API: Open Library API
+
+⚙️ Installation & Setup
+
+Clone the repo and install dependencies:
+
+# Clone repository
+git clone https://github.com/Aryan-Kumar-7/book-finder.git
+
+# Navigate into project
+cd bookfinder
+
+# Install dependencies
+npm install
+
+
+Start the development server:
+
+npm run dev
+
+
+Visit the app at http://localhost:5173
+ (Vite default) or http://localhost:3000
+ if using CRA/Next.js.
+
+🛠️ Project Structure
+bookfinder/
+│── src/
+│   ├── components/       # Reusable UI components
+│   ├── pages/            # Page components
+│   ├── App.jsx           # Main app component
+│   └── index.jsx         # Entry point
+│
+├── public/               # Static assets
+├── package.json
+├── tailwind.config.js
+└── README.md
+
+🔑 Environment Variables
+
+Create a .env file in the root directory and add:
+
+VITE_OPEN_LIBRARY_API=https://openlibrary.org
+
+
+(or adjust depending on your setup)
+
